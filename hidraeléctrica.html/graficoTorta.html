@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfico de Torta</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="bodytorta">
+
+    <div id="header-container"></div>
+    
+    <div class="contenedortorta">
+                <h2 class="fuente">Gráfico de Torta: Producción Hidroeléctrica por País</h2>
+        <div class="grafico-contatorta">
+
+            <canvas id="miGrafica"></canvas> 
+        </div>
+        
+    </div>
+        <p class="contenedor">
+            El gráfico de torta representa la participación de cada fuente 
+            de energía renovable en la generación total para el año 2022. 
+            La hidroelectricidad sigue siendo la mayor fuente de energía renovable, 
+            aunque su porcentaje ha disminuido con la expansión de la energía solar y
+            eólica. Mientras tanto, la biomasa y la geotermia contribuyen con una menor 
+            proporción pero siguen siendo esenciales en algunas regiones. Este gráfico
+            refleja cómo la transición energética ha diversificado la producción de 
+            energías limpias, reduciendo la dependencia de una única fuente renovable
+            y favoreciendo un sistema energético más equilibrado y sostenible.
+        </p>
+    <div id="footer-container"></div>
+
+    <script src="componentes.js"></script>
+    <script src="graficTorta.js"></script>
+
+</body>
+</html>

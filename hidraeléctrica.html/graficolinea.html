@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Consumo</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+    <script src="graficoLinea.js" defer></script>
+</head>
+<body>
+    <section id="bodylinea"> 
+        <div id="header-container"></div>
+
+        <main>
+            <div class="contenedor">
+          
+                
+                <div class="tabla-containerlinea">
+                    <table id="tablalinea">
+                        <thead></thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <div class="containergrafica">
+                <h2>Gráfico de Líneas: energía hidroeléctrica</h2>
+                    <canvas id="miGrafica"></canvas> 
+                </div>
+            
+
+                <p>
+                    El gráfico lineal presenta la evolución de la producción de energía 
+                    renovable desde 1965 hasta 2022. Se observa un crecimiento constante,
+                     con una tendencia más pronunciada en las últimas dos décadas debido a
+                      la rápida expansión de la energía eólica y solar. Mientras que la 
+                      hidroelectricidad tuvo un crecimiento estable en el tiempo, las energías 
+                      emergentes han registrado aumentos acelerados, impulsados por avances
+                       tecnológicos y la necesidad de reducir las emisiones de carbono. Esta 
+                       tendencia sugiere que, en los próximos años, la energía renovable
+                        continuará ganando protagonismo en el sistema energético global.
+
+
+                </p>
+        </div>
+
+
+        </main>
+
+        <div id="footer-container"></div>
+
+        <script src="componentes.js"></script>
+        <script src="lista.js"></script>
+        
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Energía hidroeléctrica</title>
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+
+<body>
+
+  <div id="header-container"></div>
+  
+
+<main>  
+ <br> 
+  <div class="contenedor">
+      <div class="organizar"><br>
+          <h2>Calculadora de Energía Renovable</h2><br>
+          <label class="fuente">Consumo mensual (kWh):</label><br>
+           <input type="number" placeholder="Kwh" id="consuMensual" class="cuadros" value="20"><br><br>
+         
+          <div class="alinear-resultado">
+              <label class="fuente"> Porcentaje de energía<br> renovable de manera anual:</label>
+              <p id="resultado"   class="pkwh cuadros fuente"></p><br>
+          </div>
+         
+          <button type="button" id="verific" class="verific" onclick="calcularConsumo()">Calcular</button>
+                  
+
+      </div>
+</div>
+<div class="contenedor">
+    <p class="fuente"> 
+      Este sistema permite calcular el porcentaje de
+      energía renovable dentro del consumo eléctrico
+      mensual de un hogar o comunidad.
+
+      <ol class="fuente">
+        <li><span class="importante">Ingreso de datos:</span>El usuario introduce su consumo mensual en kilovatios-hora (kWh). </li>
+        <li><span class="importante">Cálculo del porcentaje:</span>Se determina qué porcentaje del consumo proviene de fuentes renovables. </li>
+        <li><span class="importante">Visualización del resultado:</span> Se muestra el porcentaje calculado en un campo de salida.</li>
+        <li><span class="importante">Interacción:</span> Al presionar el botón "Calcular", se ejecuta el cálculo y se actualiza la información en pantalla. </li>
+       
+      </ol>
+
+  <div class="detalle1"></div>
+  <div class="detalle2"></div>
+  <div class="detalle3"></div>
+  <div class="detalle4"></div>
+
+
+
+
+
+
+
+
+    </p>
+
+</div>
+
+</main>
+
+
+
+<div id="footer-container"></div>
+
+<script src="operation.js"></script>
+<script src="componentes.js"></script>
+</body>
+</html> 

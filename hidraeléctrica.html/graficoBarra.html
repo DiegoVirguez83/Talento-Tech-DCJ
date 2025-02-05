@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Consumo</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> 
+    <script src="graficBarra.js" defer></script>
+</head>
+<body>
+
+  <div id="header-container"></div>
+
+  <main>
+    
+  
+     
+      
+      <div class="contenedor">
+        
+      <div class="tabla-containerbarra">
+        
+        <table id="tablabarra">
+        <thead></thead>
+        <tbody></tbody>
+        </table>
+      </div>
+      <div class="containergrafica">
+        <h2>Gráfico de Barras: energía hidroeléctrica</h2>
+        <canvas id="miGraficabarra"></canvas> 
+      </div>
+
+      <p>
+        El gráfico de barras ilustra la producción de diferentes 
+        fuentes de energía renovable en cada década desde 1965 hasta 2022.
+         Inicialmente, la hidroelectricidad representaba la mayor parte del
+          suministro renovable, pero a partir del 2010, la energía solar y eólica 
+          comenzaron a registrar un crecimiento exponencial. Este cambio refleja el 
+          avance tecnológico, la reducción de costos y el aumento de políticas globales
+           para fomentar una transición energética sostenible. A pesar del crecimiento de 
+           nuevas tecnologías, la hidroelectricidad sigue siendo una de las principales 
+           fuentes renovables de generación de electricidad.
+      </p>
+    </div>
+  
+
+  </main>
+
+  <div id="footer-container"></div>
+
+<script src="componentes.js"></script>
+<script src="lista.js"></script>
+
+</body>
+</html>
